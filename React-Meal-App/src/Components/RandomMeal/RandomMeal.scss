@@ -1,0 +1,49 @@
+.random{
+    width:100%;
+    height:100vh;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        width:250px;
+        border: 1px solid gray;
+    }
+
+    &-grid{
+        &-controls{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+
+            
+        button{
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid gray;
+            outline: none;
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            border-radius: 10px;
+          }
+
+        }
+
+
+        &-instructions{
+            text-align: center;
+
+            p{
+                font-size: 18px;
+            }
+        }
+   
+    }
+}

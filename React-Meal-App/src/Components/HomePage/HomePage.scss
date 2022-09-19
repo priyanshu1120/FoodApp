@@ -1,0 +1,88 @@
+.home {
+    min-height: 100vh;
+    height:auto;
+    background: black;
+    color:white;
+    width:100%;
+ 
+ 
+  
+
+
+    &-search{
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+     
+     
+
+
+        input{
+            padding:10px;
+            outline: none;
+            border:1px solid gray;
+            width:300px;
+            font-size: 18px;
+            border-radius: 10px;
+            margin:20px 0;
+        }
+
+        button{
+            font-size:18px;
+            border:1px solid gray;
+            padding:8px;
+            color: white;
+            background: orange;
+            margin-left:10px;
+            border-radius: 10px;
+            outline: none;
+            cursor: pointer;
+        }
+
+    }
+
+    &-meals{
+ 
+        width:98%;
+
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:7px;
+        margin: auto;
+        margin-top: 10px;
+        text-align: center;
+      
+       
+       
+        h2 {
+            width:100%;
+            display: flex;
+            text-align: center;
+           
+        }
+
+    }
+
+    &-grid{
+
+        cursor: pointer;
+         
+
+        img{
+            width:280px;
+            height:250px;
+            border:1px solid gray;
+            transition: all 0.4s ease;
+            border-radius: 10px;
+        }
+
+        &:hover{
+            transform: scale(1.014);
+
+        }
+    }
+
+}
